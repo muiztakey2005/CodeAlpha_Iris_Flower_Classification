@@ -295,7 +295,7 @@ Three classification algorithms were evaluated using both a held-out test set an
 
 ---
 
-## 👤 Author
+## Author
 
 **Muiz Takey**
 
@@ -303,6 +303,6 @@ Computer Science & Engineering — Artificial Intelligence & Machine Learning
 
 ---
 
-## ⭐ Acknowledgement
+## Acknowledgement
 
 This project was developed as part of the CodeAlpha Data Science Internship to apply practical machine learning and data science concepts to a real classification problem.
