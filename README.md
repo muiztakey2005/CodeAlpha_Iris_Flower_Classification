@@ -8,7 +8,7 @@ Build a machine learning classification model to predict the species of an Iris 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on classifying Iris flowers into their respective species using machine learning classification algorithms.
 
@@ -26,7 +26,7 @@ The models were evaluated using a held-out test set and 5-fold cross-validation.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The project uses the **Iris dataset**, which contains measurements of Iris flowers.
 
@@ -57,7 +57,7 @@ The dataset contains **150 samples**, with **50 samples from each species**.
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ### 1. Data Understanding
 
@@ -165,7 +165,7 @@ All three models correctly classified **28 out of 30 test samples**.
 
 ---
 
-## 🔬 Cross-Validation Results
+## Cross-Validation Results
 
 5-fold cross-validation was performed on the training dataset.
 
@@ -179,7 +179,7 @@ KNN obtained the highest mean cross-validation accuracy among the three evaluate
 
 ---
 
-## 🌳 Feature Importance
+## Feature Importance
 
 Feature importance was analyzed using the Decision Tree model.
 
@@ -196,7 +196,7 @@ This is also consistent with the exploratory data analysis, where petal measurem
 
 ---
 
-## 🧪 New Sample Prediction
+## New Sample Prediction
 
 After model evaluation, a final KNN model was trained using the complete dataset.
 
@@ -217,7 +217,7 @@ Iris-setosa
 
 ---
 
-## 💾 Saved Model Files
+## Saved Model Files
 
 The final trained model and preprocessing components were saved using `joblib`.
 
@@ -240,7 +240,7 @@ These files allow the trained model to be reused without retraining from scratch
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
@@ -250,11 +250,10 @@ These files allow the trained model to be reused without retraining from scratch
 * Scikit-learn
 * Joblib
 * Google Colab
-* Jupyter Notebook
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 CodeAlpha_Iris_Flower_Classification/
@@ -274,7 +273,7 @@ CodeAlpha_Iris_Flower_Classification/
     └── iris_label_encoder.pkl
 ```
 
-## 📈 Key Findings
+## Key Findings
 
 * The dataset contains **150 Iris flower samples** belonging to three species.
 * Each species contains **50 samples**, resulting in a balanced dataset.
@@ -286,23 +285,13 @@ CodeAlpha_Iris_Flower_Classification/
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 This project demonstrates a complete machine learning classification workflow using the Iris dataset.
 
 The workflow covered data understanding, cleaning, exploratory data analysis, preprocessing, model training, evaluation, cross-validation, feature importance analysis, and final model deployment preparation.
 
 Three classification algorithms were evaluated using both a held-out test set and 5-fold cross-validation. The final KNN model was trained on the complete dataset and successfully used to predict the species of a new Iris flower sample.
-
----
-
-## 🎓 Internship Task
-
-This project was completed as part of:
-
-**CodeAlpha Data Science Internship**
-
-### Task 1 — Iris Flower Classification
 
 ---
 
